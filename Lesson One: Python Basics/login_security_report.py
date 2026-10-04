@@ -1,0 +1,11 @@
+username = input("Enter your username")
+login_attempts = int(input("How many failed login attempts were there?"))
+login_risk_score = float(input("Enter a login risk score"))
+account_locked = True
+print(isinstance(login_attempts, int))
+print(isinstance(login_risk_score, float))
+print(isinstance(account_locked, bool))
+print("Username:", username)
+print("Failed Login Attempts:", login_attempts)
+print("Login Risk Score:", login_risk_score)
+print("Account Locked:", account_locked)
